@@ -5,15 +5,15 @@
 	"baseUIColor":[40,95,205,255],
 	"darkUIColor":[0,50,150,175],
 	"gridUIColor":[0,85,255,75],
-	"brightUIColor":[40,110,255,255], # no idea why it has multiple colors, too bad!
-	
+	"brightUIColor":[40,110,255,255], # no idea which color is which. too bad!
+
 	"entityNamePrefix":"Itoha",
 	"personNamePrefix":"Itoha",
 	"displayName":"ITOHA",
 	"displayNameWithArticle":"ITOHA",
 	"displayNameIsOrAre":"is",
-	"logo":"graphics/tahlan/factions/kuritzu_itoha.png",
-	"crest":"graphics/tahlan/factions/kuritzu_crest_itoha.png",
+	"logo":"graphics/itoha/factions/kuritzu_itoha.png",
+	"crest":"graphics/itoha/factions/kuritzu_crest_itoha.png",
 	"showInIntelTab":true,
 	"shipNamePrefix":"INF", 
 	"shipNameSources":{

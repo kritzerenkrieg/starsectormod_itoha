@@ -2,7 +2,7 @@
 	"id":"itoha",
 	"name":"ITOHA",
 	"author":"kuritzu",
-	"version":"0.1", # GO UPDATE YOUR VERSION FILE (I dont know what is vayra trying to say but whatever)
+	"version":"0.1", #barelyfunctional
 	"description":"Assemble, the harmony of worlds. Requires LazyLib and MagicLib.",
 	"gameVersion":"0.96a-RC10",
 	"jars":["jars/itoha.jar"],
@@ -10,5 +10,5 @@
     {"id": "lw_lazylib", "name": "LazyLib"},
 	{"id": "MagicLib", "name": "MagicLib"},
   ],
-	"modPlugin":"data.scripts.itohaPlugin",
+	"modPlugin":"itoha.plugins.itoha_ModPlugin",
 }

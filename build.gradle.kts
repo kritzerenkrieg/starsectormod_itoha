@@ -13,7 +13,7 @@ val modName = rootDir.name
  * Where your Starsector game is installed to.
  * Note: On Linux, if you installed Starsector into your home directory, you have to write /home/<user>/ instead of ~/
  */
-val starsectorDirectory = "C:/Program Files (x86)/Fractal Softworks/Starsector"
+val starsectorDirectory = "D:/GAMES/Starsector"
 
 /** Defaults to the name of your mod, with spaces replaced by hyphens. */
 val modFolderName = modName.replace(" ", "-")

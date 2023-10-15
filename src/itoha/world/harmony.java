@@ -1,4 +1,4 @@
-package data.scripts.world.;
+package itoha.world;
 
 import java.awt.Color;
 import java.util.ArrayList;
@@ -22,9 +22,11 @@ import com.fs.starfarer.api.impl.campaign.terrain.MagneticFieldTerrainPlugin.Mag
 import org.lazywizard.lazylib.MathUtils;
             //I have a feeling of impending destruction, my coding skill is barely functional!
 public class harmony {
-    public void generate(SectorAPI sector) {
+                public void generate(SectorAPI sector) {
 
-        StarSystemAPI system = sector.createStarSystem("Harmony");
-        system.getLocation().set(24000,16000); //right side of map because left is full of commies n fascists
+                    StarSystemAPI system = sector.createStarSystem("Harmony");
+                    system.getLocation().set(24000, 16000); //right side of map because left is full of commies n fascists
 
-        system.setBackgroundTextureFilename("graphics/backgrounds/harmony.jpg");
+                    system.setBackgroundTextureFilename("graphics/itoha/backgrounds/pacifica.jpg");
+                }
+            }
