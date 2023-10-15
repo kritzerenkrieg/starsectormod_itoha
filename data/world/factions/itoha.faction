@@ -1,0 +1,294 @@
+{
+	"id":"itoha",
+	"color":[40,95,205,255],
+	
+	"baseUIColor":[40,95,205,255],
+	"darkUIColor":[0,50,150,175],
+	"gridUIColor":[0,85,255,75],
+	"brightUIColor":[40,110,255,255], # no idea why it has multiple colors, too bad!
+	
+	"entityNamePrefix":"Itoha",
+	"personNamePrefix":"Itoha",
+	"displayName":"ITOHA",
+	"displayNameWithArticle":"ITOHA",
+	"displayNameIsOrAre":"is",
+	"logo":"graphics/tahlan/factions/kuritzu_itoha.png",
+	"crest":"graphics/tahlan/factions/kuritzu_crest_itoha.png",
+	"showInIntelTab":true,
+	"shipNamePrefix":"INF", 
+	"shipNameSources":{
+		"JAPANESE":2,
+		"SPACE":1,
+		"MERCANTILE":2,
+		"GENERAL":1,
+	},
+	"names":{
+		"fringe":1,
+		"modern":1,
+		"world":1,
+		"future":1,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{			
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["persean"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["persean"],
+		"hulls":[			
+			"vigilance",
+			"brawler",
+			"monitor",
+			
+			"hammerhead",
+			"sunder",
+			"drover",
+			
+			"heron",
+			"falcon",
+			"eagle",
+			"champion",
+			"gryphon",
+			
+			"conquest",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[],
+	},
+	"knownFighters":{
+		"tags":["persean"],
+		"fighters":[
+			"thunder_wing",
+			"gladius_wing",
+			"talon_wing",
+			"claw_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+		"knownWeapons":{
+		"tags":["persean"],
+		"weapons":[
+			"lightmg",
+			"lightdualmg",
+			"lightac",
+			"lightdualac",
+			"lightag",
+			
+			"heavymg",
+			"flak",
+			"dualflak",
+			"heavymauler",
+			"heavyac",
+			
+			"mjolnir",
+			
+			"pdburst",
+			"pdlaser",
+			"lrpdlaser",
+			"taclaser",
+			"ioncannon",
+			
+			"phasebeam",
+			"gravitonbeam",
+			"irautolance",
+			"heavyburst",
+			"ionbeam",
+			
+			"guardian",
+			"hil",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["standard", "persean"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"converted_hangar",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"heavyarmor",
+			"insulatedengine",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"recovery_shuttles",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"surveying_equipment",
+			"hiressensors",
+			"efficiency_overhaul",
+		],
+	},
+	"factionDoctrine":{
+		"warships":3,
+		"carriers":2,
+		"phaseShips":0,
+		
+		"officerQuality":8,
+		"shipQuality":4,
+		"numShips":3,
+		
+		"shipSize":4,
+		
+		"aggression":1,
+		
+		"combatFreighterProbability":0.25,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":1,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.75,
+
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"crew_training",
+			"officer_management",
+			"coordinated_maneuvers",			
+			"flux_regulation",
+			"electronic_warfare",
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",
+	],
+	"music":{
+		"theme":"itoha_market",
+		"market_neutral":"itoha_market",
+		"market_hostile":"itoha_market",
+		"market_friendly":"itoha_market",
+		"encounter_neutral":"itoha_encounter",
+		"encounter_hostile":"itoha_encounter",
+		"encounter_friendly":"itoha_encounter",
+	},
+	"internalComms":"itoha",
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_league01.png",
+			"graphics/portraits/portrait_league02.png",
+			"graphics/portraits/portrait_league03.png",
+			"graphics/portraits/portrait_league06.png",
+			"graphics/portraits/portrait_league07.png",
+			"graphics/portraits/portrait_league09.png",
+			"graphics/tahlan/portraits/legio/legio_m01.png",
+			"graphics/tahlan/portraits/legio/legio_m02.png",
+			"graphics/tahlan/portraits/legio/legio_m03.png",
+			"graphics/tahlan/portraits/legio/legio_m04.png",
+			"graphics/tahlan/portraits/legio/legio_m05.png",
+			"graphics/tahlan/portraits/legio/legio_m06.png",
+			"graphics/tahlan/portraits/legio/legio_m07.png",
+			"graphics/tahlan/portraits/legio/legio_m08.png",
+			"graphics/tahlan/portraits/legio/legio_m09.png",
+			"graphics/tahlan/portraits/legio/legio_m10.png",
+			"graphics/tahlan/portraits/legio/legio_m11.png",
+			"graphics/tahlan/portraits/legio/legio_m12.png",
+			"graphics/tahlan/portraits/legio/legio_m13.png",
+			"graphics/tahlan/portraits/legio/legio_m14.png",
+			"graphics/tahlan/portraits/legio/legio_m15.png",
+		],
+		"standard_female":[
+			"graphics/tahlan/portraits/legio/legio_f01.png",
+			"graphics/tahlan/portraits/legio/legio_f02.png",
+			"graphics/tahlan/portraits/legio/legio_f03.png",
+			"graphics/tahlan/portraits/legio/legio_f04.png",
+			"graphics/tahlan/portraits/legio/legio_f05.png",
+			"graphics/tahlan/portraits/legio/legio_f06.png",
+			"graphics/tahlan/portraits/legio/legio_f07.png",
+			"graphics/tahlan/portraits/legio/legio_f08.png",
+			"graphics/tahlan/portraits/legio/legio_f09.png",
+			"graphics/tahlan/portraits/legio/legio_f10.png",
+			"graphics/tahlan/portraits/legio/legio_f11.png",
+			"graphics/tahlan/portraits/legio/legio_f12.png",
+			"graphics/tahlan/portraits/legio/legio_f13.png",
+			"graphics/tahlan/portraits/legio/legio_f14.png",
+			"graphics/tahlan/portraits/legio/legio_f15.png",
+			"graphics/tahlan/portraits/legio/legio_f16.png",
+			"graphics/tahlan/portraits/legio/legio_f17.png",
+			"graphics/tahlan/portraits/legio/legio_f18.png",
+			"graphics/tahlan/portraits/legio/legio_f19.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Captain"},
+		},
+		"posts":{
+			"patrolCommander":{"name":"Captain"},
+			"fleetCommander":{"name":"Admiral"},
+			"baseCommander":{"name":"General"},
+			"administrator":{"name":"Senator"},
+		},
+	},
+	"custom":{
+		"offersCommissions":true,		
+		"engagesInHostilities":true,
+		"engageWhenEvenStrength":true,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":0.5,
+		"exemptFromFoodShortages":false,
+		"willTradeWhenHostile":false,
+		"ignoreTradeWithEnemiesForReputation":false,
+		"postsNoBounties":false,
+		"offerMissionsWhenHostile":false,
+		"allowsTransponderOffTrade":false,
+		#"makesPirateBases":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":true,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+		},
+	},
+	"fleetTypeNames":{
+		"smallTrader":"Trader",
+		"trade":"Mercantile Convoy",
+		"tradeLiner":"Civillian Convoy",
+		"patrolSmall":"Patrol",
+		"patrolMedium":"Guard Fleet",
+		"patrolLarge":"Defense Armada",
+		"mercScout":"Recon Squad",
+		"mercBountyHunter":"Hit Squad",
+		"mercPrivateer":"Mercenary",
+		"mercPatrol":"Attack Fleet",
+		"mercArmada":"Assault Armada",
+		"taskForce":"Special Force",
+	},
+}
+
+
+
+

@@ -1,0 +1,3 @@
+Creation of mod (0.1)
+//	Honestly I have no idea how to make a mod. Well, atleast I know what javascript is.
+//	Made with the corpse of kadur remnant mod. Where is Vayra.

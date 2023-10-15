@@ -1,0 +1,12 @@
+{
+  "music":{
+				
+		"itoha_encounter":[
+			{"file":"ITOHA_Encounter.ogg","source":"sounds/itoha/music/","volume":0.5,"randomStart":false}
+		],
+
+		"itoha_market":[
+			{"file":"ITOHA_Assembly.ogg","source":"sounds/itoha/music/","volume":0.5,"randomStart":false}
+		],
+  },
+}
