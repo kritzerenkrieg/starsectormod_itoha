@@ -1,4 +1,4 @@
-#Insterstellar Treaty of Harmonic Assembly
+##Insterstellar Treaty of Harmonic Assembly
 
 **Made with Intellij Template by Wisp**
 
@@ -9,11 +9,7 @@ Please checkout credits, license, and readme.
 Log:
 
 #Ver 0.1
-
->Faction Configuration
-
->Added Faction Graphics, Audio, and Data
-
->Generated "Pacifica" System
-
->Integrated with Nexerellin and Lazylibs
+>- Faction Configuration <br/> 
+>- Added Faction Graphics, Audio, and Data <br/> 
+>- Generated "Pacifica" System <br/> 
+>- Integrated with Nexerellin and Lazylibs
