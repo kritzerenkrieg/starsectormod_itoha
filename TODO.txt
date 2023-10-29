@@ -1,13 +1,13 @@
-1. Pacifica is white dwarf
-2. Tundra needs food source (minimum)
-3. Custom condition for Kyomi - Dystopian Industries
-4. All object is too near, add x2 to all the distance
-5. Asteroid is not going around the sun
-6. Add 1 more planet
+++1. Pacifica is white dwarf
+++2. Tundra needs food source (minimum)
+//3. Custom condition for Kyomi - Dystopian Industries
+++4. All object is too near, add x2 to all the distance
+++5. Asteroid is not going around the sun
+++6. Add 1 more planet
 
 A. make harmony system
 B. custom mod ship
 C. variation to eagle, falcon, conquest
 D. custom weapon ship
-E. WAIFUS!
-F. DATING!
+//E. WAIFUS!
+//F. DATING!

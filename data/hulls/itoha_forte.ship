@@ -1,0 +1,249 @@
+{
+  "hullName": "Forte",
+  "hullId": "itoha_forte",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/hulls/itaho_forte.png",
+  "style": "MIDLINE",
+  "height": 248,
+  "width": 192,
+  "center": [96, 124],
+  "collisionRadius": 132.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 138.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [73, 27]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -0,
+      "locations": [73, -27]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [40, 30]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -0,
+      "locations": [40, -30]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [110, 22]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -0,
+      "locations": [110, -22]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 135,
+      "angle": 135,
+      "locations": [-71, 26]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 225,
+      "locations": [-71, -26]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 180,
+      "locations": [-78, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-40, 78]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-40, -78]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-120.5, 24],
+      "length": 30,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-120.5, -24],
+      "length": 30,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-119, 32],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-119, -32],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-121, 16],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-121, -16],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-85, 60],
+      "length": 30,
+      "width": 10,
+      "angle": 150,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-84.5, -60.5],
+      "length": 30,
+      "width": 10,
+      "angle": -150,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-79.5, 68],
+      "length": 30,
+      "width": 10,
+      "angle": 150,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-80.5, -67.5],
+      "length": 30,
+      "width": 10,
+      "angle": -150,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -89.5, -6,
+    -112.5, -6.5,
+    -123.5, -12.5,
+    -121, -41,
+    -87, -48,
+    -87, -55.5,
+    -87, -60.5,
+    -79, -73.5,
+    -71, -73,
+    -66, -77.5,
+    -59.5, -89.5,
+    -38, -90,
+    -32, -84.5,
+    -30.5, -74,
+    -8, -75.5,
+    15.5, -66.5,
+    62, -64.5,
+    75, -64.5,
+    106.5, -35,
+    124, -31,
+    122.5, -6,
+    105.5, -6,
+    93.5, -7.5,
+    36, -10.5,
+    23, -5.5,
+    23, 5.5,
+    36, 10.5,
+    93.5, 7.5,
+    105.5, 6,
+    122.5, 6,
+    124, 31,
+    106.5, 35,
+    75, 64.5,
+    62, 64.5,
+    15.5, 66.5,
+    -8, 75.5,
+    -30.5, 74,
+    -32, 84.5,
+    -38, 90,
+    -59.5, 89.5,
+    -66, 77.5,
+    -71, 73,
+    -79, 73.5,
+    -87, 60.5,
+    -87, 55.5,
+    -87, 48,
+    -121, 41,
+    -123.5, 12.5,
+    -112.5, 6.5,
+    -89.5, 6
+  ]
+}

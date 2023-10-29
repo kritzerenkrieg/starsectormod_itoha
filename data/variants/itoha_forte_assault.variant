@@ -1,0 +1,50 @@
+{
+  "variantId": "itoha_forte_assault",
+  "hullId": "itoha_forte",
+  "displayName": "assault",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdburst_fighter",
+        "WS0002": "pdburst",
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser",
+        "WS0011": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "swarmer",
+        "WS0012": "swarmer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kineticblaster",
+        "WS0004": "kineticblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavymauler",
+        "WS0006": "heavymauler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

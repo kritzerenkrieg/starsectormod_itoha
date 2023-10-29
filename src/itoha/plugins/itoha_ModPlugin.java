@@ -27,7 +27,7 @@ public final class itoha_ModPlugin extends BaseModPlugin {
         if(!HAS_NEX || SectorManager.getManager().isCorvusMode()){
             //this statement above checks if the game either have nexerelin or not
             //It will always return with true, unless the game has nexerelin AND its in random sector mode
-        //new harmony().generate(sector);
+        new harmony().generate(sector);
         new pacifica().generate(sector);
       } 
     }
