@@ -7,6 +7,11 @@
 Please checkout credits, license, and readme.
 
 Log:
+#Ver 0.12
+>- Added custom ship <br/> 
+>- Added more graphics <br/> 
+>- Generated "Harmony" System <br/> 
+>- Experiments that are unacceptable <br/>
 
 #Ver 0.1
 >- Faction Configuration <br/> 
